@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            text-align: center;
+            padding:30px;
+            width: 80%;
+            height: auto;
+            margin: 10px;
+            display: inline-block;
+            border: 2px solid burlywood;
+            font-weight: bolder;
+            color: black;
+            background-color: white;
+            letter-spacing: 1px;
+        }
+
+        .cursor {
+            opacity: 0;
+            transition: 0.1s;
+        }
+        .cursor.active {
+            opacity: 1;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <span class="text"> </span>
+        <span class="cursor"></span>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
